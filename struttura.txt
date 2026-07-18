@@ -1,0 +1,31 @@
+sandro-tv/
+│
+├── index.html                    ← File principale (tutto-in-uno)
+│                                    Contiene: HTML + CSS + JavaScript
+│                                    ~3500 righe
+│
+├── 📁 icons/                     ← Icone per PWA
+│   ├── icon-72.png
+│   ├── icon-96.png
+│   ├── icon-128.png
+│   ├── icon-144.png
+│   ├── icon-152.png
+│   ├── icon-180.png
+│   ├── icon-192.png
+│   ├── icon-384.png
+│   └── icon-512.png
+│
+├── 📁 playlists/                 ← Cartella per liste M3U/M3U8
+│   ├── italia-plus.m3u          ← Lista principale Italia
+│   ├── regionali.m3u            ← Canali regionali
+│   ├── satellite.m3u            ← Canali satellite
+│   ├── youtube-live.m3u         ← YouTube Live
+│   └── twitch-live.m3u          ← Twitch Live
+│
+├── 📁 screenshots/               ← Screenshot salvati (auto-generata)
+│
+├── 📁 recordings/                ← Registrazioni salvate (auto-generata)
+│
+├── manifest.json                 ← Configurazione PWA (opzionale)
+├── service-worker.js             ← Cache offline (opzionale)
+└── README.md                     ← Documentazione progetto
